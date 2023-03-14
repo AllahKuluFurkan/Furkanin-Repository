@@ -115,6 +115,7 @@ public class DortIslem{
         int carpim= a*b;
         System.out.println("carpim :" + carpim);
         return 0;
+        //return kismini tam anlamadim ama kalanini yapmayi denedim
     }
 
 
