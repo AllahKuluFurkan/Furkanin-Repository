@@ -107,15 +107,9 @@ public class DortIslem{
     // Dikdortgenin alan hesabi yapilir
     // return ile alan degeri dondurulmelidir!
     private static int alanHesapla(int ilkSayi, int ikinciSayi) {
-        Scanner in = new Scanner(System.in);
-        System.out.print("Ilk Sayiyi giriniz:");
-        int a = in.nextInt();
-        System.out.print("Ikinci Sayiyi giriniz:");
-        int b = in.nextInt();
-        int carpim= a*b;
-        System.out.println("carpim :" + carpim);
-        return 0;
-        //return kismini tam anlamadim ama kalanini yapmayi denedim
+        int alan=ilkSayi*ikinciSayi;
+        return alan;
+
     }
 
 
